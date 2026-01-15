@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extra Activities & Certifications</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="project-header">
+    <h1>Extra Activities & Certifications</h1>
+    <p>Showcasing my additional certifications and activities.</p>
+  </header>
+
+  <!-- Filter Buttons -->
+  <section class="filter-buttons container">
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="certification">Certifications</button>
+    <button class="filter-btn" data-filter="workshop">Workshops</button>
+  </section>
+
+  <!-- Extra Activities Content -->
+  <section class="extra-activities container">
+
+    <div class="activity-card card" data-category="certification">
+      <h2>🎓 Certification 1</h2>
+      <p>Certified in XYZ Technology from ABC Institute (Year)</p>
+      <img src="images/cert1.png" alt="Certification 1" class="activity-img screenshot">
+    </div>
+
+    <div class="activity-card card" data-category="certification">
+      <h2>🏆 Certification 2</h2>
+      <p>Completed Online Course on ABC Skill (Year)</p>
+      <img src="images/cert2.png" alt="Certification 2" class="activity-img screenshot">
+    </div>
+
+    <div class="activity-card card" data-category="workshop">
+      <h2>🎖️ Workshop / Extra Activity</h2>
+      <p>Participated in Hackathon/Workshop on XYZ topic (Year)</p>
+      <img src="images/workshop.png" alt="Workshop" class="activity-img screenshot">
+    </div>
+
+
+  </section>
+
+  <!-- Modal Popup for certificates -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <div id="caption"></div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  </div>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>

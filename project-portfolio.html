@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website - Project Details</title>
+  <link rel="stylesheet" href="project-fooddeliver.css">
+  <script src="project-fooddeliver.js"></script>
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="project-header">
+    <h1>Portfolio Website</h1>
+    <p>A personal portfolio showcasing skills, experience, and projects.</p>
+  </header>
+
+  <!-- Project Content -->
+  <section class="project-details container">
+    
+    <!-- Project Overview -->
+    <div class="project-description card">
+      <h2>📌 Project Overview</h2>
+      <p>
+        This portfolio website was created to present my resume, skills, and project work professionally. 
+        It includes sections like About, Education, Projects, and Contact, with a clean and modern UI.
+      </p>
+    </div>
+
+    <!-- Project Screenshots -->
+    <div class="project-screenshots card">
+      <h2>📸 Screenshots</h2>
+      <div class="screenshot-grid">
+        <img src="images/portfolio1.png" alt="Homepage Screenshot" class="screenshot">
+        <img src="images/portfolio2.png" alt="Projects Section Screenshot" class="screenshot">
+        <img src="images/portfolio3.png" alt="Contact Section Screenshot" class="screenshot">
+      </div>
+    </div>
+
+    <!-- Project Links -->
+    <div class="project-links card">
+      <h2>🔗 Project Links</h2>
+      <a href="index.html" class="btn">Back to Portfolio</a>
+      <a href="https://your-live-portfolio-link.com" target="_blank" class="btn">View Live Site</a>
+    </div>
+ 
+  </section>
+
+  <!-- Modal Popup -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <div id="caption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
